@@ -160,7 +160,9 @@ let g:which_key_map.g = {
       \ 'b'    : [':Gblame'                           , 'blame'],
       \ 'd'    : [':Git diff'                         , 'diff'],
       \ 'l'    : [':Git log'                          , 'log'],
+      \ 'p'    : [':Git push'                         , 'push'],
       \ 's'    : [':Gstatus'                          , 'status'],
+      \ 't'    : [':!gh pr create --web'              , 'pull request'],
       \ }
 
 " G is for gist
