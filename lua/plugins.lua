@@ -87,6 +87,8 @@ return require('packer').startup(function(use)
 
     -- Language / Library specific
     use 'thosakwe/vim-flutter'                                                      -- (lua) Vim commands for Flutter including hot reload on save and more.
+    use 'hashivim/vim-terraform'                                                    -- (vimscript) Adds a :Terraform command for running Terrafrom from Neovim, performs automatic formatting of code.
+    use 'juliosueiras/vim-terraform-completion'                                     -- (vimscript) Provides mapping for quickly opening documentation for Terraform resources.
 
     -- Registers
     use 'gennaro-tedesco/nvim-peekup'                                               -- (lua) Adds menu for viewing registers and selecting registers to use when pasting. Mapped to ""
