@@ -55,6 +55,7 @@ return require('packer').startup(function(use)
 
     -- Telescope
     if vim.fn.has("linux") then use 'nvim-telescope/telescope-media-files.nvim' end -- (lua) Allow previewing of media files inside Telescope (only works on Linux)
+    use 'nvim-telescope/telescope-project.nvim'                                     -- (lua) Adds the ability to add git projects to Telescope and immediately switch to them using it's fuzzy finding.
     use 'nvim-telescope/telescope.nvim'                                             -- (lua) a extendable fuzzy finder for searching over lists.
 
     -- Explorer
