@@ -38,5 +38,6 @@ vim.o.updatetime = 300                                   -- Faster completion
 vim.o.writebackup = true                                 -- enable writing of the backup files
 vim.wo.cursorline = true                                 -- Enable highlighting of the current line
 vim.wo.number = true                                     -- set numbered lines
+vim.wo.relativenumber = true                             -- set relative numbered lines
 vim.wo.signcolumn = "yes"                                -- Always show the signcolumn, otherwise it would shift the text each time
 vim.wo.wrap = false                                      -- Display long lines as just one line
