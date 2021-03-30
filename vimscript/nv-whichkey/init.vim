@@ -158,6 +158,7 @@ let g:which_key_map.g = {
       \ 'B'    : [':GBrowse'                          , 'browse'],
       \ 'a'    : [':Gwrite'                           , 'add'],
       \ 'b'    : [':Gblame'                           , 'blame'],
+      \ 'c'    : [':Git commit'                       , 'commit'],
       \ 'd'    : [':Git diff'                         , 'diff'],
       \ 'l'    : [':Git log'                          , 'log'],
       \ 'p'    : [':Git push'                         , 'push'],
