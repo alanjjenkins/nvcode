@@ -67,7 +67,6 @@ return require('packer').startup(function(use)
     use 'sheerun/vim-polyglot'                                                      -- (vimscript) Adds filetype plugins for syntax highlighting of many different filetypes.
 
     -- Git
-    use 'TimUntersberger/neogit'                                                    -- (lua) Magit clone for Neovim that is geared toward the Vim philosophy.
     use 'f-person/git-blame.nvim'                                                   -- (lua) Shows Git blame text for highlighted lines as virtual text using Neovim LSP.
     use 'shumphrey/fugitive-gitlab.vim'                                             -- (vimscript) Adds Fugitive Gbrowse support for Gitlab repos.
     use 'tommcdo/vim-fubitive'                                                      -- (vimscript) Adds Fugitive Gbrowse support for Bitbucket repos.
