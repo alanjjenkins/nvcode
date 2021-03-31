@@ -41,4 +41,3 @@ vim.o.undofile = true                                    -- enable persistent un
 vim.o.updatetime = 300                                   -- Faster completion
 vim.o.wrap = false                                       -- Display long lines as just one line
 vim.o.writebackup = true                                 -- enable writing of the backup files
-vim.g.neovide_cursor_vfx_mode = "railgun"                -- When using Neovide use the railgun animation.

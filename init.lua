@@ -1,6 +1,7 @@
 -- General configuration
 require('nv-globals')
 require('settings')
+require('neovide-settings')
 vim.cmd('luafile ~/.config/nvim/nv-settings.lua')
 require('plugins')
 require('nv-utils')
