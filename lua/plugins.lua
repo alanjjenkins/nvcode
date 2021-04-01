@@ -34,12 +34,11 @@ return require('packer').startup(function(use)
     use 'mfussenegger/nvim-dap'                                                     -- (lua) Debug adapter protocol client implementation for Neovim for debugging many languages.
 
     -- Autocomplete
+    use 'rafamadriz/friendly-snippets'                                              -- (-) A snippet collection for many different programming languages.
     use 'ChristianChiarulli/java-snippets'                                          -- (-) Java snippets
     use 'hrsh7th/nvim-compe'                                                        -- (vimscript) A completion plugin for Neovim with support for LSP completions.
     use 'hrsh7th/vim-vsnip'                                                         -- (vimscript) Adds support for VSCode style snippets. Means you can install and use snippets from VS Code snippet repos.
     use 'mattn/emmet-vim'                                                           -- (vimscript) Allows writing html using abbreviations that are then expanded.
-    use 'rafamadriz/friendly-snippets'                                              -- (-) A snippet collection for many different programming languages.
-    use {'tzachar/compe-tabnine', run = './install.sh'}                             -- (lua) A tabnine completion source for compe
 
     -- Treesitter
     use 'JoosepAlviste/nvim-ts-context-commentstring'                               -- (lua) Uses Treesitter to set the commentstring variable based on context. Good for embedded languages (e.g. html inside Javascript). Allows smarter commenting using nvim-comment.
