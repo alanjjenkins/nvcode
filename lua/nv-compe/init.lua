@@ -20,6 +20,13 @@ require'compe'.setup {
         calc = {kind = "  "},
         vsnip = {kind = "  "},
         nvim_lsp = {kind = "  "},
+        tabnine = {
+            max_line = 1000,
+            max_num_results = 10,
+            priority = 5000,
+            sort = true,
+            show_prediction_strength = true
+        },
         -- nvim_lua = {kind = "  "},
 		nvim_lua = false,
         spell = {kind = "  "},
